@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>my-test-app</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Mitgliederverwaltung Überwälder Schulsport-Club</h1>
+    <div style="border: black solid 2px;">
+      <form>
+        <details>
+          <summary><b>Mitglied</b>&nbsp;&nbsp;(13)&nbsp;Walter Fieber, * 09.09.1966, Erwachsener, VO-passiv</summary>
+          <p> Dieses Beispiel funktioniert in allen modernen Browsern.
+            <br/> Das Pseudoelement sitzt rechts des summary-Texts.
+            <br/> Bei einer Änderung des open-Attributs wird es (mit einem weichen Übergang) gedreht!
+          </p>
+        </details>
+        <details>
+          <summary><b>Kontakt</b>&nbsp;&nbsp;Höhenstraße 28, 69518 Abtsteinach</summary>
+          <p> Dieses Beispiel funktioniert in allen modernen Browsern.
+            <br> Das Pseudoelement sitzt rechts des summary-Texts.
+            <br> Bei einer Änderung des open-Attributs wird es (mit einem weichen Übergang) gedreht!
+          </p>
+        </details>
+        <details>
+          <summary><b>Bankverbindung</b>&nbsp;&nbsp;IBAN: DE80 5096 1206 0000 0083 62, BIC: GENODE51RBU</summary>
+          <p> Dieses Beispiel funktioniert in allen modernen Browsern.
+            <br> Das Pseudoelement sitzt rechts des summary-Texts.
+            <br> Bei einer Änderung des open-Attributs wird es (mit einem weichen Übergang) gedreht!
+          </p>
+        </details>
+        <button type="submit">Speichern</button>
+        <details>
+          <summary><b>Mitgliederliste</b></summary>
+          <label for="fname">Vorname:</label>
+          <input type="text" id="fname" name="fname">
+          <label for="lname">Nachname:</label>
+          <input type="text" id="lname" name="lname">
+          <table>
+            <tr><th>MglNr</th><th>Name</th><th>Geburtsdatum</th><th>Beitragsart</th><th>Abteilung(en)</th></tr>
+            <tr><td>13</td><td>Walter Fieber</td><td>09.09.1966</td><td>Erwachsener</td><td>VO-passiv</td></tr>
+          </table>
+        </details>
+      </form>
+    </div>
+  </body>
+</html>
